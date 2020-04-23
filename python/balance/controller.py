@@ -180,7 +180,7 @@ def credits_yesterday():
     make_blob_public(credits_str, 'daily',yesterday_dt.strftime('%d_%m_%y'))
 
     mail.send_mail(sender='jefferson.venancio@dextra-sw.com',
-                   to="franciane.oliveira@dextra-sw.com; juliana.oliveira@dextra-sw.com; jefferson.venancio@dextra-sw.com",
+                   to="viviane.fernandes@dextra-sw.com; juliana.oliveira@dextra-sw.com; jefferson.venancio@dextra-sw.com",
                    subject="[BarzingaNow] - Creditos do dia " + yesterday_dt.strftime('%d_%m_%y'),
                    body="Oi, total de creditos no dia "+yesterday_dt.strftime('%d_%m_%y')+" foi : "+str(total)+".")
 
